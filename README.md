@@ -49,4 +49,10 @@ app.whenReady().then(createWindow)
 ```
 Of course you can change the code (examples on https://www.electronjs.org/docs/tutorial/first-app#electron-development-in-a-nutshell)
 
-6. To run your app, just do ```npm start``` in the project directory (Don#t worry if electron creates some new files / ...)
+6. To run your app, just do ```npm start``` in the project directory (Don't worry if electron creates some new files / ...)
+
+## Tip:
+
+NodeJS will automatically create a folder called ```node_modules```. Because this folder is too big to be pushed to GitHub,
+you can create a ```.gitignore``` file in the Repository and add ```path/to/node_modules/``` to the created file.
+Now, Git just ignores that folder, so you don't have to worry about this large, no huge, folder.
