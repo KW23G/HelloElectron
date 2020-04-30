@@ -23,10 +23,10 @@ You should also take a look at https://www.electronjs.org/docs/tutorial/first-ap
 }
 ```
 
-4. Run ```npm install --save-dev electron``` to install electron
+4. Run ```npm install --save-dev electron``` to install electron for the project
 
 5. create an ```index.html``` and ```main.js``` file. In ```index.html``` you can just write normal frontend,
-but paste this in ```main.js```:
+but paste the following code into ```main.js```:
 
 ```
 const { app, BrowserWindow } = require('electron')
